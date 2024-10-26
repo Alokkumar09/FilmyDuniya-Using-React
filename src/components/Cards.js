@@ -30,9 +30,9 @@ getData();
           <Link to={`/Detail/${e.id}`}>
           <div
             key={i}
-            className="card shadow-lg font-medium hover:-translate-y-3 transition-all duration-500 cursor-pointer p-3  mt-6"
+            className="card shadow-lg font-medium hover:-translate-y-3 transition-all duration-500 cursor-pointer p-4  mt-6 "
           >
-            <img className=" h-60 md:h-72 w-40 md:w-60  " src={e.image} />
+            <img className=" h-40 w-30 md:h-72 md:w-60  " src={e.image} />
             <h1>
               <span className="text-gray-500">Name:</span> {e.name}
             </h1>
